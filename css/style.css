@@ -306,19 +306,19 @@ ul li {
 	font-display:swap;
 	font-family:'Figtree';
 	font-style:normal;
-	src:url('../fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+	src:url('../fonts/Figtree-VariableFont_wght.ttf') format('truetype');
 }
 @font-face {
 	font-display:swap;
 	font-family:'Figtree';
 	font-style:italic;
-	src:url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('ttf');
+	src:url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
 	font-display:swap;
 	font-family:'Quiche Display';
-	src:url('../fonts/quiche-display-bold.ttf') format('ttf');
+	src:url('../fonts/quiche-display-bold.ttf') format('truetype');
 	font-weight: 700;
     font-style: normal;
 }
