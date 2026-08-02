@@ -7,14 +7,14 @@
   - theme-dark: Forces dark theme
 -->
 
-<html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
+<html class="theme-light" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>Laine's Designed</title>
+    <title>Laine's Links</title>
     <link rel="icon" type="image/png" href="images/favicon.png"> <!-- Update this with your own favicon -->
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
@@ -24,7 +24,7 @@
     <link rel="canonical" href="https://links.lainesdesigned.com/">
 
     <!-- Author Information -->
-    <meta name="author" content="Laine">
+    <meta name="author" content="Laine Zvirgzdiņa">
 
     <!-- Browser UI Color - Matches the default light/dark theme backgrounds -->
     <meta name="theme-color" content="#db4f00" media="(prefers-color-scheme: light)">
@@ -44,8 +44,8 @@
 
     <!-- Font Preloads - Lets the browser fetch fonts in parallel with the stylesheets -->
     <link rel="preload" href="fonts/Figtree-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Figtree-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
-    <link rel="preload" href="fonts/Figtree-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/Figtree-Italic-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="fonts/quiche-display-bold.ttf" as="font" type="font/ttf" crossorigin>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
@@ -76,41 +76,45 @@
             <img class="avatar avatar--soft" src="images/avatar.png" srcset="images/avatar.png" alt="LittleLink" width="128" height="128" fetchpriority="high">
 
             <!-- Replace with your name or brand -->
-            <h1>Laine's Designed</h1>
+            <h1>lainesdesigned</h1>
 
             <!-- Add a short description about yourself or your brand -->
-            <p>A freelance book designer & video editor.</p>
+            <p>freelance book designer & video editor</p>
 
             <!-- All your buttons go here -->
             <nav class="button-stack" aria-label="Links">
 
+
               <!-- Generic Website -->
-              <a class="button button-default" href="https://lainesdesigned.com/" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-website.svg" alt="Website Icon">Website</a>
+              <a class="button button-default" href="https://lainesdesigned.com/" target="_blank" rel="noopener">Website</a>
+
+              <!-- Generic Blog -->
+              <a class="button button-default-alt" href="https://garden.lainesdesigned.com/" target="_blank" rel="noopener">Digital Garden</a>
+
+              <h2>Videos</h2>
+              <!-- YouTube Alt -->
+              <a class="button button-yt" href="https://youtube.com/@lainesdesigned" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a>
 
               <!-- Twitch -->
               <a class="button button-twitch" href="https://twitch.tv/lainesdesigned" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a>
 
-              <!-- YouTube Alt -->
-              <a class="button button-yt-alt" href="https://youtube.com/@lainesdesigned" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/youtube-alt.svg" alt="YouTube Logo">YouTube</a>
-
+              <h2>Social Media</h2>
               <!-- Bluesky -->
-              <a class="button button-bluesky" href="https://shinenite.lainesdesigned.com/" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/bluesky.svg" alt="Bluesky Logo">Bluesky</a>
+              <a class="button button-bluesky-alt" href="https://shinenite.lainesdesigned.com/" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/bluesky-alt.svg" alt="Bluesky Logo">Bluesky</a>
 
               <!-- LinkedIn -->
               <a class="button button-linked" href="https://linkedin.com/in/lainesdesigned" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
 
-              <!-- Generic Blog -->
-              <a class="button button-default" href="https://garden.lainesdesigned.com/" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-blog.svg" alt="Blog Icon">Visit my digital garden!</a>
-
+              <h2>Contact</h2>
               <!-- Generic Email Alt -->
-              <a class="button button-default" href="mailto:hello@lainesdesigned.com" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-email-alt.svg" alt="Email Icon">Email Us</a>
+              <a class="button button-default" href="mailto:hello@lainesdesigned.com" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-email-alt.svg" alt="Email Icon">Email</a>
 
             </nav>   
       </main>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
-        <a href="privacy.html">Built with <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
+        Check source code <a href="https://github.com/Shinenite/littlelink" target="_blank" rel="noopener">here</a>
       </footer>
 
     </div>

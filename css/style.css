@@ -10,7 +10,7 @@
   .container {
 	position:relative;
 	width:100%;
-	max-width:37.5rem;     				/* 600px */
+	max-width:40rem;     				
     text-align:center;
 	margin:0 auto;
 	padding:var(--spacing-xl) var(--spacing-m) 0 var(--spacing-m);
@@ -49,8 +49,13 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#ffffff;
-	color:#1a1a1a;
+	/* background properties */
+    background-image: url(../images/paper-bg-light.webp);
+    background-repeat: repeat-y;
+    background-position: center;
+    /* fallback for if the image pattern is unavailable*/
+    background-color: #F6F5F1;
+	color:#3C3431;
 	font-family:"Figtree",system-ui;
     font-weight:400;
 	line-height:1.6;
@@ -92,14 +97,14 @@
 
 /* Typography Scale */
 h1 {
-	margin:0 0 var(--spacing-m) 0;
-	font-size:var(--scale-5);           /* ~49px */
-  	font-weight:800;
+	font-family: 'Quiche Display';
+	margin:0 0 var(--spacing-s) 0;
+	font-size:var(--scale-4);           /* ~49px */
 	line-height:1.1;
-	letter-spacing:-0.02em;
 	word-wrap:break-word;
 	overflow-wrap:break-word;
 	hyphens:auto;           /* Delete this to remove automatic hyphen on line break */
+	color:#ee8347;
 }
 body {
 	font-size:var(--scale-1);           /* 20px */
@@ -139,11 +144,11 @@ footer {
 /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-	color:#2457F5;
+	color:#BB5409;
 	text-decoration:underline;
 }
 a:hover {
-	color:#083BDA;
+	color:#ee8347;
 }
 
 /* Buttons
@@ -152,8 +157,8 @@ a:hover {
 	display:inline-flex;
 	align-items:center;
 	justify-content:center;
-	width:18.75rem;             	/* 300px */
- 	min-height:3rem;                /* 48px */
+	width:22rem;             	/* 300px */
+ 	min-height:2rem;                /* 48px */
   	padding:0.75rem 1rem;         	/* 12px ; 16px */
   	font-size:1.125rem;           	/* 18px */
   	font-weight:700;
@@ -162,11 +167,11 @@ a:hover {
   	background-color:var(--button-background,transparent);
 	color:var(--button-text,#000000);
 	border:var(--button-border,none);
-	border-radius:0.5rem;
+	border-radius:1rem;
 	cursor:pointer;
 	box-sizing:border-box;
 	hyphens:auto;               	/* Delete this to remove automatic hyphen on line break */
-  	margin-bottom:1rem;
+  	margin-bottom:0.75rem;
 	text-align:center;
 	line-height:1.3;
 }
@@ -263,12 +268,13 @@ section {
 	text-align:left;
 }
 h2 {
-	font-size:var(--scale-3);
-	font-weight:700;
-	margin-bottom:var(--spacing-m);
+	font-size:var(--scale-1);
+	font-weight:900;
+	font-style: italic;
+	margin:var(--spacing-s) 0 var(--spacing-xs) 0;
 }
 h3 {
-	font-size:var(--scale-2);
+	font-size:var(--scale-0);
 	font-weight:600;
 	margin:var(--spacing-l) 0 var(--spacing-s) 0;
 }
@@ -300,27 +306,19 @@ ul li {
 	font-display:swap;
 	font-family:'Figtree';
 	font-style:normal;
-	font-weight:400;
 	src:url('../fonts/Figtree-VariableFont_wght.ttf') format('ttf');
 }
 @font-face {
 	font-display:swap;
 	font-family:'Figtree';
-	font-style:normal;
-	font-weight:600;
-	src:url('../fonts/Figtree-VariableFont_wght.ttf') format('ttf');
+	font-style:italic;
+	src:url('../fonts/Figtree-Italic-VariableFont_wght.ttf') format('ttf');
 }
+
 @font-face {
 	font-display:swap;
-	font-family:'Figtree';
-	font-style:normal;
-	font-weight:700;
-	src:url('../fonts/Figtree-VariableFont_wght.ttf') format('ttf');
-}
-@font-face {
-	font-display:swap;
-	font-family:'Figtree';
-	font-style:normal;
-	font-weight:800;
-	src:url('../fonts/oFigtree-VariableFont_wght.ttf') format('ttf');
+	font-family:'Quiche Display';
+	src:url('../fonts/quiche-display-bold.ttf') format('ttf');
+	font-weight: 700;
+    font-style: normal;
 }

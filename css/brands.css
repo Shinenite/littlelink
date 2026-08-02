@@ -31,9 +31,13 @@
 
 /* Default */
 .button.button-default {
-	--button-text:#ffffff;
-	--button-background:#2457F5;
-	--button-border:1px solid #ffffff;
+	--button-text:#fefefe;
+	--button-background:#ee8347;
+}
+
+.button.button-default-alt {
+	--button-text:#3C3431;
+	--button-background:#FFC19E;
 }
 
 /* Amazon */
@@ -319,8 +323,10 @@
 
 /* LinkedIn */
 .button-linked {
-	--button-text:#ffffff;
-	--button-background:#2867b2;
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+    --button-border:1px solid #000000;
+
 }
 
 /* Mailchimp */
@@ -555,7 +561,7 @@
 /* Twitch */
 .button-twitch {
 	--button-text:#ffffff;
-	--button-background:#9146ff;
+	--button-background:#18181b;
 }
 
 /* Unsplash */
@@ -606,7 +612,7 @@
 /* YouTube */
 .button-yt {
 	--button-text:#ffffff;
-	--button-background:#282828;
+	--button-background:#18181b;
 	--button-border:1px solid #FFFFFF;
 }
 
