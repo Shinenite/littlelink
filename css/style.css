@@ -99,7 +99,7 @@
 h1 {
 	font-family: 'Quiche Display';
 	margin:0 0 var(--spacing-s) 0;
-	font-size:var(--scale-4);           /* ~49px */
+	font-size:var(--scale-5);           /* ~49px */
 	line-height:1.1;
 	word-wrap:break-word;
 	overflow-wrap:break-word;
@@ -269,7 +269,7 @@ section {
 }
 h2 {
 	font-size:var(--scale-1);
-	font-weight:900;
+	font-weight:800;
 	font-style: italic;
 	margin:var(--spacing-s) 0 var(--spacing-xs) 0;
 }
