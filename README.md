@@ -1,1 +1,1 @@
-Link page built with [LittleLink Extended](https://github.com/sethcottle/littlelink). S
+Link page built with [LittleLink Extended](https://github.com/sethcottle/littlelink).
